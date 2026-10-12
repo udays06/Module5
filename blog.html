@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Details</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 750px; margin: 30px auto; padding: 20px; background: #f5f6fa; }
+    .card { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    a { color: #2563eb; text-decoration: none; }
+    #error { color: red; font-weight: bold; }
+    .category { display: inline-block; background: #e0e7ff; color: #3730a3; padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">&larr; Back to all blogs</a></p>
+
+  <div class="card">
+    <div id="error"></div>
+    <span id="blogCategory" class="category"></span>
+    <h1 id="blogTitle">Loading...</h1>
+    <p><small id="blogAuthor"></small></p>
+    <p id="blogContent"></p>
+  </div>
+
+  <script src="blog.js"></script>
+</body>
+</html>
